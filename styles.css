@@ -1,0 +1,172 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+
+/* BootstrapIconSet */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* PageBackground */
+body {
+    background: url(Images/PageBkg.png);
+}
+
+
+/* WelcomeSection */
+#WelcomeTitle {
+    color: #FEE9C5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 97px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+#WelcomeBody {
+    color: #FEE9C5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#WelcomeContain {
+    /*background: linear-gradient(to top, #7e389b, #301c54); */
+    background: url(Images/HalfColorPanel.png);
+}
+
+/* NavigationBar */
+.navbar {
+    background: #61228B;
+    /*background: linear-gradient(to bottom, #7e389b, #301c54);*/
+}
+.navbar-brand {
+    color: #FEE9C5 !important;
+    font-family: "Readex Pro";
+    font-size: 31px;
+}
+.nav-link {
+    color: #FEE9C5 !important;
+    font-family: "Readex Pro";
+    font-size: 20px;
+}
+
+/* Change background color of the dropdown */
+.dropdown-menu {
+    background-color: #7e389b !important; /* Dark background for dropdown */
+}
+
+/* Change text color of the dropdown items */
+.dropdown-item {
+    color: #FEE9C5 !important; /* White text color */
+    font-family: "Readex Pro";
+}
+
+/* Change text color when hovering over a dropdown item */
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #FEE9C5 !important; /* Black text on hover */
+    background-color: #301c54 !important; /* Yellow background on hover */
+}
+
+/* Optional: Change background color of dropdown when hovered */
+.dropdown-menu:hover {
+    background-color: #7e389b !important; /* Slightly lighter dark background */
+}
+
+
+.nav-link active {
+    color: style="background-color: #61228B" !important;
+    font-family: "Readex Pro";
+}
+
+/* FooterBar */
+.Footer {
+    color: #FEE9C5;
+    font-family: "Readex Pro";
+}
+.Icon {
+    color: #FEE9C5 !important;
+}
+
+/* MessageForm_Contact */
+.form-control {
+    color: #241329;
+    font-family: "Readex Pro";
+    font-size: small;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 20px;
+    border: 3px solid #BC9A2C;
+    background: rgba(220, 205, 239, 0.41);
+    background-blend-mode: screen; 
+    margin: 28px;
+}
+#SubmitBtn {
+    color: #FBFAF2;
+    font-family: "Readex Pro";
+    font-size: medium;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 20px;
+    background: #7E389B;
+    margin: 57px;
+}
+
+/* General */
+.SecTitle {
+    color: #241329;
+    font-family: "Oregano";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.BodyText {
+    color: #160C20;
+    font-family: "Andada Pro";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+/* GalleryPics_Gallery */
+.img-thumbnail {
+    display: block;
+    width: 100%;
+}
+.project-title {
+    color: #241329;
+    font-family: Oregano;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.project-medium {
+    color: #241329;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+}
+.project-description {
+   color: #160C20;
+    /* Body Txt. */
+    font-family: "Andada Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 125% */ 
+}
+.UpdateMessage {
+    font-family: "Oregano";
+    font-size: 36px;
+    color: #301C54;
+}
